@@ -1,9 +1,19 @@
 /* product-work */
-.product-work .work-list {
+
+.product-work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  & .work-list {
     display: flex;
+    align-items: center;
+
+    & .item:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   
-  .product-work .title {
+  & .title {
     color: var(--title-text-color);
   
     font-weight: 700;
@@ -14,6 +24,8 @@
     margin-top: 0px;
     margin-bottom: 50px;
   }
+}
+
   .profession-list-img-thumb {
     position: relative;
   }
@@ -33,4 +45,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--text-title-white);
-  }
+  
+  
+ 
+}

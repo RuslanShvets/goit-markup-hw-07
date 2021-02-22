@@ -5,4 +5,32 @@
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+
+
+  .header & {
+      display: flex;
+      justify-content: space-between;
+      text-align: left;
+      align-items: center;
   }
+
+  .hero & {
+    width: 696px;
+}
+
+  
+  .footer & {
+      text-align: left;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      margin-bottom: 0px;
+  }
+
+  .page-header & {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+}
+  
+}

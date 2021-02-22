@@ -2,43 +2,46 @@
     width: 44.27px;
     height:49.23px;
     fill: #AFB1B8;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
   
   .company-list-icon2 {
     width: 40px;
     height:52px;
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }.company-list-icon3 {
+  }
+    
+  .company-list-icon3 {
     width: 41px;
     height:42.6px;
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
   
-  }.company-list-icon4 {
+  .company-list-icon4 {
     width: 79.66px;
     height:42.02px;
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
   
-  }.company-list-icon5 {
+  .company-list-icon5 {
     width: 59px;
     height:47px;
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
   
-  }.company-list-icon6 {
+  .company-list-icon6 {
     width: 88.48px;
     height:45.44px;
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
   }
 /* companies*/
 .companies-section {
-    height: 370px;
-  
-  
+    height: 370px; 
   }
   
   .companies {
@@ -56,9 +59,24 @@
     align-items: center;
     width: 170px;
     height: 90px;
+    border: 1px solid;
+    color: #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;  
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
+    &:hover,
+    &:focus {
+       border-color: var(--accent-color);
   
+       .img {
+    
+      fill: var(--accent-color);
+    }
+   }
     
   }
+
   .company-title {
     font-weight: bold;
     font-size: 36px;
@@ -68,32 +86,11 @@
     color: #212121;
     margin-bottom: 50px;
     margin-top: 0px;
-    padding-top: 94px;}
-  
-  
-  .companies-link {
-    display: flex;   
-    border: 1px solid;
-    color: #AFB1B8;
-    box-sizing: border-box;
-    border-radius: 4px;  
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    
+    padding-top: 94px;
   }
+  
+    
   .companies-names:not(:last-child) {
     margin-right: 30px;
     
   }
-  .companies-link:hover,
-  .companies-link:focus {
-     border-color: var(--accent-color);
-     
-   }
-   
-  
-   .companies-link:hover .img,
-   .companies-link:focus .img {
-  
-    fill: var(--accent-color);
-  }
-      

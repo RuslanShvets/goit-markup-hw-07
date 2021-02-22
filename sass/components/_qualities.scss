@@ -1,7 +1,3 @@
-.qualities-lists :not(:last-child) {
-    margin-right: 30px;
-  }
-  
   
   .qualities-list-item {
     display: flex;
@@ -21,44 +17,53 @@
     color: var(--title-text-color);
     padding-left: 0px;
   }
-  .qualities,
-  .product-work,
-  .team-section,
+  
+ 
   .portfolio-section {
     padding-top: 94px;
     padding-bottom: 94px;
   }
+
+  .qualities {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    & .item {
+      text-align: left;
+    
+      width: 270px;
+
+      :not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+    
+    & .title {
+      color: var(--title-text-color);
+    
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      text-transform: uppercase;
+    
+      margin-top: 0px;
+      margin-bottom: 10px;
+    }
+    & .text {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      margin-top: 0;
+      margin-bottom: 0;
+    }  
+  }
   
   .qualities-list {
     display: flex;
+
+    & :not(:last-child) {
+      margin-right: 30px;
+    }
   }
   
-  .team-section .item:not(:last-child),
-  .product-work .item:not(:last-child),
-  .qualities .item:not(:last-child) {
-    margin-right: 30px;
-  }
-  .qualities .item {
-    text-align: left;
-  
-    width: 270px;
-  }
-  
-  .qualities .title {
-    color: var(--title-text-color);
-  
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-  
-    margin-top: 0px;
-    margin-bottom: 10px;
-  }
-  .qualities .text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    margin-top: 0;
-    margin-bottom: 0;
-  }  
+
