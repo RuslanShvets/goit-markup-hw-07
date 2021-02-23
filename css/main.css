@@ -10,6 +10,10 @@
   --bgc-team: #f5f4fa;
 }
 
+li {
+  list-style: none;
+}
+
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
