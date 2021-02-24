@@ -14,6 +14,13 @@ li {
   list-style: none;
 }
 
+body {
+  background-color: #ffffff;
+  color: var(--general-color-text);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -356,6 +363,7 @@ li {
 }
 
 .qualities .text {
+  width: 270px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
